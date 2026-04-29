@@ -1,20 +1,20 @@
 ```mermaid
 block
 columns 1
-  block:Presentation
-    Converters
-    Services
-    Views
+  block:P["Presentation"]
+    P_C["Converters"]
+    P_S["Services"]
+    P_V["Views"]
   end
   space
-  block:Applications
-    Controllers
-    Services
-    ViewModels
-    Views
+  block:A["Applications"]
+    A_C["Controllers"]
+    A_S["Services"]
+    A_VM["ViewModels"]
+    A_V["Views"]
   end
   space
-  Domain
-  Presentation --> Applications
-  Applications --> Domain
+  D["Domain"]
+  P --> A
+  A --> D
 ```
