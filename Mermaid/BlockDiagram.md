@@ -1,3 +1,4 @@
+```mermaid
 block
 columns 1
   db(("DB"))
@@ -12,3 +13,4 @@ columns 1
   ID --> D
   C --> D
   style B fill:#939,stroke:#333,stroke-width:4px
+  ```
