@@ -20,6 +20,10 @@ flowchart TB
 
   P --> A
   A --> D
+
+  P_V --> P_C
+  P_V --> P_S
+
   A_C --> A_S
   A_C --> A_VM
   A_VM --> A_S
